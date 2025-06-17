@@ -21,8 +21,55 @@ body {
   background-color: rgba(237, 225, 213, 0.5);
 }
 
+.cat {
+  font-size: 20px;
+  margin: 0px auto;
+}
+
 /* Centers Images */
 .image {
   margin-inline: -100px;
   opacity: 1;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.love {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 800px;
+  margin-left: -250px;
+}
+
+.hates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 800px;
+  margin-left: -250px;
+}
+
+.hates img {
+  margin-inline: auto;
+}
+
+.love img {
+  margin-inline: auto;
+}
+
+ul {
+  margin-left: -25px;
+  font-size: 17px;
+}
+
+ol {
+  margin-left: -25px;
+  font-size: 17px;
+}
+
+.cute:hover {
+  content: url(img/cutecat.jpg);
+  height: 281px;
+  width: 281px;
 }
